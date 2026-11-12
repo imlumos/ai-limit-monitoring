@@ -36,7 +36,7 @@ py -3 -m venv .venv
 
 如使用根据当前源码构建的 ZIP，解压整个文件夹，再双击 `AI额度悬浮窗.exe`。请保留同目录下的 `_internal` 文件夹。用户数据保存在 EXE 同级的 `data/` 中，程序目录需要可写。
 
-当前不提供与本次源码核验对应的 GitHub Release 下载链接。自行构建见 [开发与打包](docs/development.md)。不要将旧版安装包当作本版分发。
+下载 [1.0.0-release Windows x64 安装包](https://github.com/imlumos/ai-limit-monitoring/releases/download/v1.0.0-release/AI-Limit-v1.0.0-release-windows-x64.zip)，或查看 [GitHub Releases](https://github.com/imlumos/ai-limit-monitoring/releases)。解压后即可运行，无需安装 Python。SHA-256 校验文件随发行版提供；自行构建见 [开发与打包](docs/development.md)。
 
 ## 支持的平台
 
