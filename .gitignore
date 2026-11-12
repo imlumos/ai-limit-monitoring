@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+
+# Test
+test.py
+tests/render_*.png
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime data
+data/
+
+# Local credentials, logs, and configuration exports
+.env
+.env.*
+!.env.example
+*.log
+*.log.*
+*.pem
+*.key
+*.p12
+*.pfx
+auth.json
+.credentials.json
+oauth_creds.json
+state.vscdb*
+ai-quota-settings*.toml
+
+# Distribution archives belong in releases, not source control
+*.zip
+*.7z
+
+# Local audit notes and legacy Gitee maintenance tools
+/SECURITY_PRIVACY_REVIEW.md
+/release.py
+/repo_meta.py
+/docs/repo-meta.json
+
+# Publish only the screenshots used by README
+/image/screenshots/*
+!/image/screenshots/02-收起悬浮条-多源.png
+!/image/screenshots/03-展开-账号列表页.png
+!/image/screenshots/05-展开-设置页.png
+!/image/screenshots/08-添加账号弹窗.png
+!/image/screenshots/11-高级设置.png
